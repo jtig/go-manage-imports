@@ -1,0 +1,20 @@
+{
+  "name": "go-manage-imports",
+  "main": "./lib/go-manage-imports",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "go-manage-imports:toggle"
+  },
+  "repository": "https://github.com/atom/go-manage-imports",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "fuzzaldrin": "^2.1.0"
+  }
+}

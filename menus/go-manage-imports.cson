@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle go-manage-imports'
+      'command': 'go-manage-imports:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'go-manage-imports'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'go-manage-imports:toggle'
+        }
+      ]
+    ]
+  }
+]
